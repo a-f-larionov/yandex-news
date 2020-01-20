@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="91edb504-a31f-49aa-bf9b-e377cfd0322f" name="myHOST" url="http://163.172.131.173">
+        <fileTransfer host="163.172.131.173" port="22" privateKey="C:\work\scaleway-keys\key.ppk" rootFolder="/var/www/alor/" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
