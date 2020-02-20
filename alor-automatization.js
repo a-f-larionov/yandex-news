@@ -21,18 +21,19 @@ function yandexStep1ParseData() {
     $('ul.search-list > li.search-item')
         .each(function (i, el) {
 
-            let smiName, time, today, mp, d;
+            let smiName, orignial_time, today, mp, d;
 
             smiName = $(el).find('div.document__provider-name')[0].innerHTML;
 
 
-            time = $(el).find('div.document__time')[0].innerHTML;
+            orignial_time = $(el).find('div.document__time')[0].innerHTML;
 
 
             today = new Date();
             mp = ' ' + today.getFullYear();
 
             //	time = '21&nbsp;января&nbsp;в&nbsp;13:46';
+            time = orignial_time;
             time = time.split('&nbsp;').join(' ');
             time = time.replace(' в ', ' ');
             time = time.replace('августа', 'August' + mp);
@@ -52,32 +53,35 @@ function yandexStep1ParseData() {
             // replace year
             time = time.replace('.18 ', '.2018 ');
             time = time.replace('.19 ', '.2019 ');
+            time = time.replace('.20 ', '.2020 ');
 
 
             if (time.length == 5) {
                 time = 'сегодня ' + time;
             }
 
+            // сегодня в год.месяц.день
             time = time.replace('сегодня', today.getFullYear() + '.' + (today.getMonth() + 1) + '.' + today.getDate());
 
 
+            // вчера в год.месяц.день
             d = new Date(new Date().getTime() - 1000 * 60 * 60 * 24);
             time = time.replace('вчера', d.getFullYear() + '.' + (d.getMonth() + 1) + '.' + d.getDate());
 
-
-            /*
-             tmp = time.split(' ');
-             t0 = tmp[0].split('.')
-             t1 = tmp[1].split(':');
-             time = t0[1] + '.' + t0[0] + '.' + t0[2] + ' ' + t1[0] +':' + t1[1];
-             */
+            // меняет местами день и месяц( это нужно для предыдущего года)
+            if (time.indexOf('.', 3) == 5) {
+                tmp = time.split(' ');
+                t0 = tmp[0].split('.');
+                t1 = tmp[1].split(':');
+                time = t0[1] + '.' + t0[0] + '.' + t0[2] + ' ' + t1[0] + ':' + t1[1];
+            }
 
             if (new Date(time) == 'Invalid Date') {
                 error = true;
-                console.log('Invalid Date');
-                console.log('original', $(el).find('div.document__time')[0].innerHTML);
+                console.log('so... catch error Invalid Date');
+                console.log('original', orignial_time);
                 console.log(time);
-                debug = $(el).find('div.document__time')[0].innerHTML;
+                debug = orignial_time;
             }
 
             time = new Date(time);
@@ -87,7 +91,6 @@ function yandexStep1ParseData() {
             title = $(el).find('div.document__title > a')[0].innerHTML;
 
 //            console.log(time);
-
 
 
             /**
@@ -118,7 +121,8 @@ function yandexStep1ParseData() {
                     break;
             }
 
-console.log(smiName, author);
+            console.log(smiName, author);
+            // добавляет на отправку на севрев
             if (true) {
                 dataTable.push({
                     smiName: smiName,
@@ -279,7 +283,10 @@ function yandexOpenAllNews() {
             setTimeout(function () {
                 console.log('open url:' + url);
 
-                wnd = window.open(url);
+                // отправка данных на сервер
+                if (true) {
+                    // wnd = window.open(url);
+                }
 
             }, 1000 + n * 1000);
 
@@ -383,7 +390,10 @@ function sendToServer(timeout) {
         url += "&author=" + data.author;
         if (timeout) url += "&timeout=" + timeout
 
-        wnd = window.open(url);
+        // отправка данных на сервер
+        if (true) {
+            wnd = window.open(url);
+        }
         console.log('store:' + data.time + ' ' + data.title, url);
 
     });
