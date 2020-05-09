@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd0af2dc-62d2-4b5c-b9a6-f9f76ca99258" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Alor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Alor.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alor-automatization.js" beforeDir="false" afterPath="$PROJECT_DIR$/alor-automatization.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Инструкиця-редакция 0.0.1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Инструкиця-редакция 0.0.1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/.~lock.АЛОР_БРОКЕР_отчет_по_выходам_в_СМИ_21ноября_21декабря_2018.doc#" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_dump/create_database.sql" beforeDir="false" afterPath="$PROJECT_DIR$/db_dump/create_database.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Инструкиця-редакция 0.0.1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Инструкиця-редакция 0.0.1.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/show_news.php" beforeDir="false" afterPath="$PROJECT_DIR$/show_news.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,61 +34,24 @@
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>6</find>
-      <find>pub.</find>
-      <find>flush</find>
-      <find>start</find>
-      <find>setau</find>
-      <find>month</find>
-      <find>url</find>
-      <find>timeout</find>
-      <find>sendToServer</find>
-      <find>антон</find>
-      <find>yandex</find>
-      <find>console</find>
-      <find>conso</find>
-      <find>8</find>
-      <find>8ffd246e-5d74-49a5-8696-e92eff606a60.pub.cloud.scaleway</find>
-      <find>fkjh</find>
-      <find>алор</find>
-      <find>кух</find>
-      <find>антонов</find>
-      <find>рапот</find>
-      <find>original</find>
-      <find>document__time</find>
-      <find>inval</find>
-      <find>dataTable</find>
-      <find>store</find>
-      <find>time</find>
-      <find>sendto</find>
-      <find>12</find>
-      <find>mont</find>
-      <find>t</find>
-    </findStrings>
-    <dirStrings>
-      <dir>C:\work\Alor</dir>
-    </dirStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-11" />
-    <option name="y" value="2" />
-    <option name="width" value="2580" />
-    <option name="height" value="1369" />
-  </component>
   <component name="ProjectId" id="1Tw1GFYsyJcikVpOwwJlwXuKWhh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="js.eslint.eslintPackage" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../slim" />
-    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path" value="node" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -141,7 +108,50 @@
       <workItem from="1579587564954" duration="1933000" />
       <workItem from="1579630698132" duration="1991000" />
       <workItem from="1579978835875" duration="550000" />
+      <workItem from="1582306421542" duration="2193000" />
+      <workItem from="1584695875807" duration="988000" />
+      <workItem from="1584795260727" duration="683000" />
+      <workItem from="1584873765674" duration="1241000" />
+      <workItem from="1586014953175" duration="2094000" />
+      <workItem from="1587374400357" duration="1541000" />
+      <workItem from="1587396743578" duration="555000" />
+      <workItem from="1587402669987" duration="1513000" />
+      <workItem from="1587530921488" duration="3827000" />
+      <workItem from="1589041367328" duration="9000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="233" y="0" key="#Deployment" timestamp="1586015288455">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="233" y="0" key="#Deployment/0.0.1280.680@0.0.1280.680" timestamp="1582221147063" />
+    <state x="233" y="0" key="#Deployment/0.0.1280.720@0.0.1280.720" timestamp="1586015288455" />
+    <state x="93" y="93" width="1093" height="493" key="DiffContextDialog" timestamp="1582221074173">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="93" y="93" width="1093" height="493" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1582221074173" />
+    <state x="422" y="97" key="FileChooserDialogImpl" timestamp="1582221144881">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="422" y="97" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1582221144881" />
+    <state x="336" y="168" key="com.intellij.ide.util.TipDialog" timestamp="1589041620026">
+      <screen x="0" y="0" width="1280" height="690" />
+    </state>
+    <state x="336" y="166" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1584873780325" />
+    <state x="336" y="168" key="com.intellij.ide.util.TipDialog/0.0.1280.690@0.0.1280.690" timestamp="1589041620026" />
+    <state x="667" y="0" width="613" height="690" key="find.popup" timestamp="1587396779780">
+      <screen x="0" y="0" width="1280" height="690" />
+    </state>
+    <state x="667" y="0" width="613" height="680" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1584873871880" />
+    <state x="667" y="0" width="613" height="690" key="find.popup/0.0.1280.690@0.0.1280.690" timestamp="1587396779780" />
+    <state x="304" y="3" width="672" height="678" key="search.everywhere.popup" timestamp="1587532708908">
+      <screen x="0" y="0" width="1280" height="690" />
+    </state>
+    <state x="303" y="2" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1582220830622" />
+    <state x="304" y="3" width="672" height="678" key="search.everywhere.popup/0.0.1280.690@0.0.1280.690" timestamp="1587532708908" />
   </component>
 </project>

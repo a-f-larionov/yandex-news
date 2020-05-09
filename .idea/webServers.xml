@@ -3,9 +3,17 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="91edb504-a31f-49aa-bf9b-e377cfd0322f" name="myHOST" url="http://163.172.131.173">
-        <fileTransfer host="163.172.131.173" port="22" privateKey="C:\work\scaleway-keys\key.ppk" rootFolder="/var/www/alor/" accessType="SFTP" keyPair="true">
+        <fileTransfer host="163.172.131.173" port="22" privateKey="C:\work\scaleway-biling-keys\key.ppk" rootFolder="/var/www/alor/" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="51bbd975-a389-470d-84f2-a4fc285ec6aa" name="local.host" url="http://local.host">
+        <fileTransfer host="local.host" port="22" rootFolder="/var/www/" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
           <option name="port" value="22" />
         </fileTransfer>
