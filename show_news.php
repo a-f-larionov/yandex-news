@@ -1,10 +1,15 @@
 <style>
+    table {
+        border-collapse: collapse;
+    }
+
     td {
-        border-bottom: 1px dotted black;
+        border: 1px solid;
+        border-color: rgb(192, 192, 192);
     }
 
     .author-li {
-        list-style: none; /*убираем маркеры списка*/
+        list-style: none; /* убираем маркеры списка */
 
         border-radius: 4px;
         background: green;
@@ -76,7 +81,7 @@ $conn->query('SET CHARSET UTF8');
 if (isset($_GET['month'])) {
     $month = (int)$_GET['month'];
 
-    $timeLeftStr = "21." . $month . ".2019";
+    $timeLeftStr = "21." . $month . ".2020";
     if ($month != 12) {
         $timeRightStr = "22." . ($month + 1) . ".2020";
     } else {
@@ -106,7 +111,7 @@ while ($row = $result->fetch_assoc()) {
 
     echo "<tr>";
 
-    echo "<td>" . $row['title'] . "</td>";
+    echo "<td>" . strip_tags($row['title']) . "</td>";
 
     $date = date('d.m.Y', $row['time']);
 

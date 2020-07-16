@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd0af2dc-62d2-4b5c-b9a6-f9f76ca99258" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Alor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Alor.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alor-automatization.js" beforeDir="false" afterPath="$PROJECT_DIR$/alor-automatization.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db_dump/create_database.sql" beforeDir="false" afterPath="$PROJECT_DIR$/db_dump/create_database.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Инструкиця-редакция 0.0.1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Инструкиця-редакция 0.0.1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Инструкиця-редакция 0.0.1.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Инструкиця-редакция 0.0.1.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/show_news.php" beforeDir="false" afterPath="$PROJECT_DIR$/show_news.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -118,6 +112,13 @@
       <workItem from="1587402669987" duration="1513000" />
       <workItem from="1587530921488" duration="3827000" />
       <workItem from="1589041367328" duration="9000" />
+      <workItem from="1589041613774" duration="1811000" />
+      <workItem from="1589539478259" duration="1065000" />
+      <workItem from="1589716873915" duration="3201000" />
+      <workItem from="1590063833240" duration="1373000" />
+      <workItem from="1590131973272" duration="984000" />
+      <workItem from="1592664645976" duration="963000" />
+      <workItem from="1592819579224" duration="1400000" />
     </task>
     <servers />
   </component>
@@ -125,33 +126,21 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="233" y="0" key="#Deployment" timestamp="1586015288455">
-      <screen x="0" y="0" width="1280" height="720" />
-    </state>
-    <state x="233" y="0" key="#Deployment/0.0.1280.680@0.0.1280.680" timestamp="1582221147063" />
-    <state x="233" y="0" key="#Deployment/0.0.1280.720@0.0.1280.720" timestamp="1586015288455" />
-    <state x="93" y="93" width="1093" height="493" key="DiffContextDialog" timestamp="1582221074173">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="93" y="93" width="1093" height="493" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1582221074173" />
-    <state x="422" y="97" key="FileChooserDialogImpl" timestamp="1582221144881">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="422" y="97" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1582221144881" />
-    <state x="336" y="168" key="com.intellij.ide.util.TipDialog" timestamp="1589041620026">
+    <state width="498" height="446" key="SwitcherDM" timestamp="1589042084876">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state x="336" y="166" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1584873780325" />
-    <state x="336" y="168" key="com.intellij.ide.util.TipDialog/0.0.1280.690@0.0.1280.690" timestamp="1589041620026" />
+    <state width="498" height="446" key="SwitcherDM/0.0.1280.690@0.0.1280.690" timestamp="1589042084876" />
+    <state x="336" y="168" key="com.intellij.ide.util.TipDialog" timestamp="1594927221484">
+      <screen x="0" y="0" width="1280" height="690" />
+    </state>
+    <state x="336" y="168" key="com.intellij.ide.util.TipDialog/0.0.1280.690@0.0.1280.690" timestamp="1594927221484" />
     <state x="667" y="0" width="613" height="690" key="find.popup" timestamp="1587396779780">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state x="667" y="0" width="613" height="680" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1584873871880" />
     <state x="667" y="0" width="613" height="690" key="find.popup/0.0.1280.690@0.0.1280.690" timestamp="1587396779780" />
-    <state x="304" y="3" width="672" height="678" key="search.everywhere.popup" timestamp="1587532708908">
+    <state x="310" y="9" width="672" height="678" key="search.everywhere.popup" timestamp="1592726592818">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state x="303" y="2" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1582220830622" />
-    <state x="304" y="3" width="672" height="678" key="search.everywhere.popup/0.0.1280.690@0.0.1280.690" timestamp="1587532708908" />
+    <state x="310" y="9" width="672" height="678" key="search.everywhere.popup/0.0.1280.690@0.0.1280.690" timestamp="1592726592818" />
   </component>
 </project>
